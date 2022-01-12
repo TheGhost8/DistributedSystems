@@ -1,0 +1,3 @@
+/home/ghost/SOFT/OpenMPi/bin/mpicc -o jacobi jacobi_secure.c -lm
+
+/home/ghost/SOFT/OpenMPi/bin/mpiexec -np 4 --with-ft ulfm --map-by :OVERSUBSCRIBE ./jacobi
